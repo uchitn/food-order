@@ -1,0 +1,124 @@
+/*
+Author: Uchit Shrestha;
+theme: food recipe website Admin;
+version: 1.0;
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.primary-btn{
+    padding: 10px 20px;
+    background-color: rgb(52, 52, 204);
+    color: white;
+}
+.primary-btn:hover{
+    background-color: rgb(0, 0, 255);
+
+}
+.success-btn{
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+.success-btn:hover{
+    background-color: rgb(9, 159, 9);
+}
+.danger-btn{
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+.danger-btn:hover{
+    background-color: rgb(229, 43, 43);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.dashboard-nav {
+    flex: none;
+    width: 240px;
+    padding: 60px 40px;
+    background: rgb(222, 222, 7);
+}
+
+.dashboard-content {
+    background:  gainsboro;
+    width: 100%;
+    padding: 40px 32px;
+}
+
+/* start dashbard nav styling */
+.dashboard-nav ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.dashboard-nav ul > li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.dashboard-nav a {
+    display: block;
+    color: black;
+    font-weight: 500;
+}
+.dashboard-nav a:hover{
+    color: white;
+}
+
+
+/* end dashbard nav styling */
+
+/* dashboard content start  */
+.dashboard-content h1{
+    margin-bottom: 32px;
+}
+
+.dashboard-insights {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.dashboard-insights > div {
+    width: 25%;
+    padding: 0 16px;
+}
+
+.dashboard-insights .insight-block {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+/* dashboard content end  */
+
+/* manage category section start  */
+.category-table{
+    padding-top: 40px;
+}
+
+/* manage category section end  */
